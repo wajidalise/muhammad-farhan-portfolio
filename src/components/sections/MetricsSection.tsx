@@ -1,5 +1,6 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
+import MaxWidth from "../shared/MaxWidth";
 
 const metrics = [
   { value: "95%", label: "Average Lighthouse Score", desc: "Across all production applications" },
@@ -16,7 +17,7 @@ export const MetricsSection = () => {
 
   return (
     <section className="py-24" ref={ref}>
-      <div className="container mx-auto px-6">
+      <MaxWidth>
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           animate={isInView ? { opacity: 1, y: 0 } : {}}
@@ -46,7 +47,7 @@ export const MetricsSection = () => {
             </motion.div>
           ))}
         </div>
-      </div>
+      </MaxWidth>
     </section>
   );
 };

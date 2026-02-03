@@ -8,6 +8,7 @@ import {
   GitBranch,
   Layers
 } from "lucide-react";
+import MaxWidth from "../shared/MaxWidth";
 
 const skillCategories = [
   {
@@ -75,7 +76,7 @@ export const SkillsSection = () => {
 
   return (
     <section id="skills" className="py-24 bg-muted/20" ref={ref}>
-      <div className="container mx-auto px-6">
+      <MaxWidth >
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           animate={isInView ? { opacity: 1, y: 0 } : {}}
@@ -117,7 +118,7 @@ export const SkillsSection = () => {
             </motion.div>
           ))}
         </div>
-      </div>
+      </MaxWidth>
     </section>
   );
 };

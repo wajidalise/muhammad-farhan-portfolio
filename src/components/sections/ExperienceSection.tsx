@@ -1,6 +1,7 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import { Briefcase, TrendingUp } from "lucide-react";
+import MaxWidth from "../shared/MaxWidth";
 
 const experiences = [
   {
@@ -35,7 +36,7 @@ export const ExperienceSection = () => {
 
   return (
     <section id="experience" className="py-24 bg-muted/20" ref={ref}>
-      <div className="container mx-auto px-6">
+      <MaxWidth>
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           animate={isInView ? { opacity: 1, y: 0 } : {}}
@@ -85,7 +86,7 @@ export const ExperienceSection = () => {
             </motion.div>
           ))}
         </div>
-      </div>
+      </MaxWidth>
     </section>
   );
 };

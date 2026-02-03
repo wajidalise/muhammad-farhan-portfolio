@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { ArrowRight, Download } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useEffect, useState } from "react";
+import MaxWidth from "../shared/MaxWidth";
 
 const stats = [
   { value: 2.5, suffix: "+", label: "Years Experience" },
@@ -41,9 +42,9 @@ const AnimatedCounter = ({ value, suffix }: { value: number; suffix: string }) =
 
 export const HeroSection = () => {
   return (
-    <section className="min-h-screen flex items-center justify-center pt-16 relative overflow-hidden">
-      <div className="container mx-auto px-6 py-20">
-        <div className="max-w-4xl mx-auto text-center">
+    <section id="hero" className="min-h-screen flex items-center justify-center pt-16 relative overflow-hidden">
+      <div className="py-20">
+        <MaxWidth className="max-w-4xl text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -90,7 +91,7 @@ export const HeroSection = () => {
                 <ArrowRight size={18} />
               </a>
             </Button>
-            <Button size="lg" variant="outline" className="border-border hover:bg-muted gap-2">
+            <Button size="lg" variant="outline" className=" gap-2">
               <a href="#contact" className="flex items-center gap-2">
                 <Download size={18} />
                 Download Resume
@@ -120,7 +121,7 @@ export const HeroSection = () => {
               </motion.div>
             ))}
           </motion.div>
-        </div>
+        </MaxWidth>
       </div>
     </section>
   );
