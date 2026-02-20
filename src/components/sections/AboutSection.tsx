@@ -70,7 +70,7 @@ export const AboutSection = () => {
               I'm{' '}
               <span className='text-foreground font-semibold'>Wajid Ali</span>,
               a Senior Frontend Engineer with{' '}
-              <span className='gradient-text font-semibold'>2.5+ years</span> of
+              <span className='gradient-text font-semibold'>3 years</span> of
               experience building enterprise-grade web applications. My
               expertise lies in architecting{' '}
               <span className='text-foreground font-medium'>
