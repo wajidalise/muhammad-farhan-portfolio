@@ -25,7 +25,7 @@ const socialLinks = [
   },
   { icon: Github, href: 'https://github.com/wajidalise', label: 'GitHub' },
   // { icon: Twitter, href: 'https://twitter.com', label: 'Twitter' },
-  { icon: Mail, href: 'mailto:officewajidali@gmail.com', label: 'Email' },
+  { icon: Mail, href: 'mailto:meerfarhan221@gmail.com', label: 'Email' },
 ];
 
 export const Footer = () => {

@@ -190,7 +190,7 @@ export const ContactSection = () => {
 
   const handleCopyEmail = async () => {
     try {
-      await navigator.clipboard.writeText('officewajidali@gmail.com');
+      await navigator.clipboard.writeText('meerfarhan221@gmail.com');
       toast({
         title: 'Email copied to clipboard! 📧',
         description: 'Ready to paste in your email client.',
@@ -198,7 +198,7 @@ export const ContactSection = () => {
     } catch (err) {
       toast({
         title: 'Failed to copy',
-        description: 'Please manually copy: officewajidali@gmail.com',
+        description: 'Please manually copy: meerfarhan221@gmail.com',
         variant: 'destructive',
       });
     }
@@ -287,7 +287,7 @@ export const ContactSection = () => {
                       />
                     </div>
                     <div>
-                      <p className='font-medium'>officewajidali@gmail.com</p>
+                      <p className='font-medium'>meerfarhan221@gmail.com</p>
                     </div>
                   </div>
                   <Button
@@ -310,7 +310,7 @@ export const ContactSection = () => {
                       />
                     </div>
                     <div>
-                      <p className='font-medium'>+92 344 3841964</p>
+                      <p className='font-medium'>+923441834429</p>
                     </div>
                   </div>
                   <div className='flex gap-2'>
