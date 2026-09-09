@@ -68,7 +68,7 @@ export const AboutSection = () => {
           >
             <p className='text-lg leading-relaxed mb-6'>
               I'm{' '}
-              <span className='text-foreground font-semibold'>Wajid Ali</span>,
+              <span className='text-foreground font-semibold'>Muhammad Farhan</span>,
               a Senior Frontend Engineer with{' '}
               <span className='gradient-text font-semibold'>3 years</span> of
               experience building enterprise-grade web applications. My

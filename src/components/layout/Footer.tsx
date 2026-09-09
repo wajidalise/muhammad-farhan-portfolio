@@ -36,7 +36,7 @@ export const Footer = () => {
         <div className='grid grid-cols-1 md:grid-cols-11 gap-3 mb-8'>
           {/* Brand */}
           <div className='md:col-span-3 '>
-            <h3 className='text-xl font-bold gradient-text mb-2'>Wajid Ali</h3>
+            <h3 className='text-xl font-bold gradient-text mb-2'>Muhammad Farhan</h3>
             <p className='text-sm text-muted-foreground'>
               Senior Frontend Engineer & Technical Architect
             </p>
@@ -93,7 +93,7 @@ export const Footer = () => {
         </div>
 
         <div className='pt-8 border-t border-border/50 flex flex-col md:flex-row justify-center items-center gap-4 text-sm text-muted-foreground'>
-          <p>© {new Date().getFullYear()} Wajid Ali. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Muhammad Farhan. All rights reserved.</p>
           {/* <p>Built with React & Tailwind CSS</p> */}
         </div>
       </MaxWidth>

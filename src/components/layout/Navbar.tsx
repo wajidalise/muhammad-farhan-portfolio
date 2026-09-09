@@ -30,7 +30,7 @@ export const Navbar = () => {
             href='#'
             className='text-xl font-bold gradient-text'
           >
-            WA
+            MF
           </a>
 
           {/* Desktop Navigation */}
