@@ -27,7 +27,7 @@ export const Navbar = () => {
       <MaxWidth className=''>
         <nav className='backdrop-blur-xl border border-primary rounded-full bg-primary/10 px-6 h-16 flex items-center justify-between '>
           <a href='#'>
-            <img src='/farhan.jpeg' alt='Muhammad Farhan' className='h-10 w-10 rounded-full object-cover' />
+            <img src='/public/farhan.jpeg' alt='Muhammad Farhan' className='h-10 w-10 rounded-full object-cover' />
           </a>
 
           {/* Desktop Navigation */}
